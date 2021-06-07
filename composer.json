@@ -1,0 +1,27 @@
+{
+    "name": "gamoreira/crudcliente",
+    "description": "Teste cadastro de clientes",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Moreira",
+            "email": "guilhermeintegrado@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "3.*"
+    }
+}
