@@ -1,11 +1,63 @@
-# cliente
-Cadastro/Consulta de clientes simples em PHP
+# 📋 Cliente – Simple Customer Registration System
 
-- Utilizado no projeto o Slim Framework para gerenciamento de Rotas.
-- Utilizado a integração com a API do https://viacep.com.br/, a integração é
-ativada no campo CEP ao remover o foco do mesmo.
+> Early career project developed to practice backend fundamentals using PHP and Slim Framework.
 
-Algumas Observações:
-- O script de criação do banco de dados Mysql, está no arquivo database.sql na raiz do projeto!
-- O projeto foi desenvolvido em localhost com o nome de projeto "cliente" caso seja outro nome, 
-para que funcione a constante BASE_URL precisa ser alterada no arquivo index.php na linha 3.
+---
+
+## 📌 About the Project
+
+**Cliente** is a simple customer registration and consultation system built with PHP.
+
+This project was developed during the early stages of my backend learning journey, focusing on:
+
+- Routing with Slim Framework
+- API integration
+- MySQL database structure
+- Basic MVC organization
+- Form handling and validation
+
+Although it is a simpler project compared to my recent work, it represents an important milestone in my development evolution.
+
+---
+
+## 🛠 Tech Stack
+
+- PHP
+- Slim Framework
+- MySQL
+- HTML / CSS
+- ViaCEP Public API Integration
+
+---
+
+## 🔌 External API Integration
+
+The system integrates with the **ViaCEP API** to automatically retrieve address data based on the Brazilian ZIP code (CEP).
+
+API used:
+https://viacep.com.br/
+
+### How it works
+
+- When the user fills in the CEP field
+- On blur event (focus out)
+- The system requests the API
+- Address fields are auto-filled
+
+This was implemented to practice REST API consumption and asynchronous requests.
+
+---
+
+## 📦 Features
+
+- Customer registration
+- Customer listing
+- Address auto-fill via CEP
+- MySQL database persistence
+
+---
+
+## 🗄 Database
+
+The MySQL database creation script is available at:
+
